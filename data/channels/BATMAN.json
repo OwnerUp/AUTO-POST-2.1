@@ -1,0 +1,238 @@
+{
+  "name": "BATMAN",
+  "id": -1003547104852,
+  "templates": {
+    "session": {
+      "text": "{OVER} OVER 👉 {RUN} RUN\n\nBINDASS 👍\n\n{CALL} KARO 👉 {CALL_EMOJI}\n\nSAME LIMIT SE PLAY 💰",
+      "entities": [
+        {
+          "type": "MessageEntityBold",
+          "attrs": {
+            "offset": 6,
+            "length": 6
+          }
+        },
+        {
+          "type": "MessageEntityBold",
+          "attrs": {
+            "offset": 12,
+            "length": 2
+          }
+        },
+        {
+          "type": "MessageEntityCustomEmoji",
+          "attrs": {
+            "offset": 12,
+            "length": 2,
+            "document_id": 5471978009449731768
+          }
+        },
+        {
+          "type": "MessageEntityBold",
+          "attrs": {
+            "offset": 14,
+            "length": 20
+          }
+        },
+        {
+          "type": "MessageEntityBold",
+          "attrs": {
+            "offset": 34,
+            "length": 2
+          }
+        },
+        {
+          "type": "MessageEntityCustomEmoji",
+          "attrs": {
+            "offset": 34,
+            "length": 2,
+            "document_id": 5778410504246531195
+          }
+        },
+        {
+          "type": "MessageEntityBold",
+          "attrs": {
+            "offset": 36,
+            "length": 14
+          }
+        },
+        {
+          "type": "MessageEntityBold",
+          "attrs": {
+            "offset": 50,
+            "length": 2
+          }
+        },
+        {
+          "type": "MessageEntityCustomEmoji",
+          "attrs": {
+            "offset": 50,
+            "length": 2,
+            "document_id": 5471978009449731768
+          }
+        },
+        {
+          "type": "MessageEntityBold",
+          "attrs": {
+            "offset": 65,
+            "length": 21
+          }
+        },
+        {
+          "type": "MessageEntityBold",
+          "attrs": {
+            "offset": 86,
+            "length": 2
+          }
+        },
+        {
+          "type": "MessageEntityCustomEmoji",
+          "attrs": {
+            "offset": 86,
+            "length": 2,
+            "document_id": 5224257782013769471
+          }
+        }
+      ],
+      "custom_emojis": [
+        {
+          "offset": 12,
+          "length": 2,
+          "document_id": 5471978009449731768
+        },
+        {
+          "offset": 34,
+          "length": 2,
+          "document_id": 5778410504246531195
+        },
+        {
+          "offset": 50,
+          "length": 2,
+          "document_id": 5471978009449731768
+        },
+        {
+          "offset": 86,
+          "length": 2,
+          "document_id": 5224257782013769471
+        }
+      ],
+      "saved_at": "2026-09-05T00:17:15"
+    },
+    "sball": {
+      "text": "{BALL} BALL 👉 {RUN} RUN\n\nBINDASS 👍\n\n{CALL} KARO 👉 {CALL_EMOJI}\n\nSAME LIMIT SE PLAY 💰",
+      "entities": [
+        {
+          "type": "MessageEntityBold",
+          "attrs": {
+            "offset": 6,
+            "length": 6
+          }
+        },
+        {
+          "type": "MessageEntityBold",
+          "attrs": {
+            "offset": 12,
+            "length": 2
+          }
+        },
+        {
+          "type": "MessageEntityCustomEmoji",
+          "attrs": {
+            "offset": 12,
+            "length": 2,
+            "document_id": 5471978009449731768
+          }
+        },
+        {
+          "type": "MessageEntityBold",
+          "attrs": {
+            "offset": 14,
+            "length": 20
+          }
+        },
+        {
+          "type": "MessageEntityBold",
+          "attrs": {
+            "offset": 34,
+            "length": 2
+          }
+        },
+        {
+          "type": "MessageEntityCustomEmoji",
+          "attrs": {
+            "offset": 34,
+            "length": 2,
+            "document_id": 5778410504246531195
+          }
+        },
+        {
+          "type": "MessageEntityBold",
+          "attrs": {
+            "offset": 36,
+            "length": 14
+          }
+        },
+        {
+          "type": "MessageEntityBold",
+          "attrs": {
+            "offset": 50,
+            "length": 2
+          }
+        },
+        {
+          "type": "MessageEntityCustomEmoji",
+          "attrs": {
+            "offset": 50,
+            "length": 2,
+            "document_id": 5471978009449731768
+          }
+        },
+        {
+          "type": "MessageEntityBold",
+          "attrs": {
+            "offset": 65,
+            "length": 21
+          }
+        },
+        {
+          "type": "MessageEntityBold",
+          "attrs": {
+            "offset": 86,
+            "length": 2
+          }
+        },
+        {
+          "type": "MessageEntityCustomEmoji",
+          "attrs": {
+            "offset": 86,
+            "length": 2,
+            "document_id": 5224257782013769471
+          }
+        }
+      ],
+      "custom_emojis": [
+        {
+          "offset": 12,
+          "length": 2,
+          "document_id": 5471978009449731768
+        },
+        {
+          "offset": 34,
+          "length": 2,
+          "document_id": 5778410504246531195
+        },
+        {
+          "offset": 50,
+          "length": 2,
+          "document_id": 5471978009449731768
+        },
+        {
+          "offset": 86,
+          "length": 2,
+          "document_id": 5224257782013769471
+        }
+      ],
+      "saved_at": "2026-09-05T00:16:34"
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "name": "FIXER",
+  "id": -1004411329857,
+  "templates": {
+    "cashout": {
+      "text": "CASH OUT KAR LO SAB\n\nMy Work Done  🐎",
+      "entities": [
+        {
+          "type": "MessageEntityBold",
+          "attrs": {
+            "offset": 0,
+            "length": 35
+          }
+        },
+        {
+          "type": "MessageEntityBold",
+          "attrs": {
+            "offset": 35,
+            "length": 2
+          }
+        },
+        {
+          "type": "MessageEntityCustomEmoji",
+          "attrs": {
+            "offset": 35,
+            "length": 2,
+            "document_id": 5350774831220532974
+          }
+        }
+      ],
+      "custom_emojis": [
+        {
+          "offset": 35,
+          "length": 2,
+          "document_id": 5350774831220532974
+        }
+      ],
+      "saved_at": "2026-09-03T12:16:24"
+    },
+    "entry": {
+      "text": "{ CALL }  TRADING ENTRY ✅\n\n{ RATE } { FAV }\n\nFavrate Se  Entry Lena Start Kro.....\n{ LIMIT } Limit use karo ✅\n\n{ KHAO } Ko Khaoo.....\n\n{ WIN } Win Hoga ❤️",
+      "entities": [
+        {
+          "type": "MessageEntityBold",
+          "attrs": {
+            "offset": 8,
+            "length": 16
+          }
+        },
+        {
+          "type": "MessageEntityBold",
+          "attrs": {
+            "offset": 24,
+            "length": 1
+          }
+        },
+        {
+          "type": "MessageEntityCustomEmoji",
+          "attrs": {
+            "offset": 24,
+            "length": 1,
+            "document_id": 6267008582294705964
+          }
+        },
+        {
+          "type": "MessageEntityBold",
+          "attrs": {
+            "offset": 25,
+            "length": 83
+          }
+        },
+        {
+          "type": "MessageEntityBold",
+          "attrs": {
+            "offset": 108,
+            "length": 1
+          }
+        },
+        {
+          "type": "MessageEntityCustomEmoji",
+          "attrs": {
+            "offset": 108,
+            "length": 1,
+            "document_id": 6267008582294705964
+          }
+        },
+        {
+          "type": "MessageEntityBold",
+          "attrs": {
+            "offset": 109,
+            "length": 45
+          }
+        }
+      ],
+      "custom_emojis": [
+        {
+          "offset": 24,
+          "length": 1,
+          "document_id": 6267008582294705964
+        },
+        {
+          "offset": 108,
+          "length": 1,
+          "document_id": 6267008582294705964
+        }
+      ],
+      "saved_at": "2026-09-04T11:35:06"
+    }
+  }
+}
