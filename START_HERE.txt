@@ -1,0 +1,31 @@
+AUTO POST 8 - TELEGRAM CONTROLLED
+
+1) Local VS Code
+- Put API_ID, API_HASH, PHONE and BOT_TOKEN in environment variables or config.py.
+- Run: python main.py
+- Open the control bot and send /start.
+
+2) IMPORTANT ARCHITECTURE
+- The user Telegram session remains the posting engine.
+- The control bot only manages channels/templates.
+- Runtime configuration is stored in data/channels/<CHANNEL>.json.
+- The Python source is NOT rewritten when you edit a template.
+- channel_configs.py is only a generated human-readable mirror.
+- Therefore an edit cannot corrupt main.py and a restart keeps saved settings.
+
+3) EXISTING CHANNELS
+The 20 legacy channels in channels.py remain unchanged until you explicitly save an override from the control bot. Editing SESSION only changes SESSION for that channel; other templates remain on the old code template.
+
+4) NEW CHANNELS
+Bot -> /addchannel -> name -> ID -> each template -> Preview -> Save -> final Save Channel.
+The new channel is stored in its own JSON file.
+
+5) RAILWAY
+- Set environment variables API_ID, API_HASH, PHONE, BOT_TOKEN.
+- Do NOT put .session files or tokens in GitHub.
+- For a user-session deployment, use a persistent Railway volume for the session/data directory, or adapt to StringSession.
+- Also persist the project data directory, especially data/channels and control_state.json.
+- Start command: python main.py
+
+6) POSTING
+Posting messages remain separate from the control bot. The posting account continues to use the existing commands (/toss, /match, /session, etc.). Control-panel messages never get posted to target channels.
